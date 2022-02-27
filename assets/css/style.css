@@ -1,9 +1,11 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
+
+
 
 /* nav bar toggle buttton style*/
 /* Remove border from toggler */
@@ -20,7 +22,7 @@
 }
 
 /* Lines of the Toggler */
-.toggler-icon{
+.toggler-icon {
   width: 30px;
   height: 3px;
   background-color: #e74c3c;
@@ -29,7 +31,7 @@
 }
 
 /* Adds Space between the lines */
-.middle-bar{
+.middle-bar {
   margin: 5px auto;
 }
 
@@ -48,6 +50,7 @@
   transform: rotate(-45deg);
   transform-origin: 10% 90%;
 }
+
 /* State when navbar is opened (END) */
 
 /* State when navbar is collapsed (START) */
@@ -63,6 +66,7 @@
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
+
 /* State when navbar is collapsed (END) */
 
 /* Color of Toggler when collapsed */
@@ -73,44 +77,50 @@
 
 /*toggle button end*/
 
-.header_flexbox{
+.header_flexbox {
   display: flex;
   min-height: 4rem;
   width: 100%;
-  background-color:#f7f7f7;
+  background-color: #f7f7f7;
 }
-#logo_first_letter{
+
+#logo_first_letter {
   font-size: 2rem;
   font-weight: bold;
   color: blue;
 }
-.logo_name{
+
+.logo_name {
   display: flex;
   justify-content: center;
   width: 60%;
   padding-top: 10px;
 }
-.nav_section{
+
+.nav_section {
   width: 40%;
   display: flex;
   justify-content: flex-end;
 
-  
+
 }
 
-.logo_name h2{
+.logo_name h2 {
   text-align: center;
 }
-.nav-link{
+
+.nav-link {
   color: black;
   font-size: 1rem;
   font-weight: bold;
-  
+
 }
-.nav-item{
+
+.nav-item {
   padding-right: 25px;
 }
- .nav-link::after{
+
+.nav-link::after {
   content: '';
   width: 0;
   height: 2px;
@@ -119,10 +129,31 @@
   margin: auto;
 
 }
-.nav-link:hover::after{
+
+.nav-link:hover::after {
   width: 100%;
- 
+
 }
-.nav-link:hover{
+
+.nav-link:hover {
+
   color: blue;
+}
+
+
+/*about section codes*/
+.About_section {
+  height: 728px;
+  width: 100%;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url("/assets/images/banner_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    object-fit: contain;
+    background-size: cover;
+    position: relative;
+  
+
+
 }
