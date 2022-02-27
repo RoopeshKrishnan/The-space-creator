@@ -9,7 +9,6 @@
 /* Remove border from toggler */
 .navbar-toggler {
   border: 0 !important;
-  
 }
 
 .navbar-toggler:focus,
@@ -31,7 +30,7 @@
 
 /* Adds Space between the lines */
 .middle-bar{
-  margin: 2px auto;
+  margin: 5px auto;
 }
 
 /* State when navbar is opened (START) */
@@ -72,8 +71,6 @@
 }
 
 
-
-
 /*toggle button end*/
 
 .header_flexbox{
@@ -81,7 +78,6 @@
   min-height: 4rem;
   width: 100%;
   background-color: aqua;
-
 }
 #logo_first_letter{
   font-size: 2rem;
@@ -89,13 +85,13 @@
   color: blue;
 }
 .logo_name{
-  width: 50%;
+  width: 60%;
   justify-content: center;
 }
 .nav_section{
-  width: 50%;
+  width: 40%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   
 }
 
@@ -103,18 +99,5 @@
   
   text-align: center;
 
-}
-nav{
-  display: flex;
-  color: rgb(208, 247, 247);
-}
-.navbar-nav{
-  display: flex;
-  justify-content: end;
 
 }
-.nav-link{
-  color: white;
-  font-weight: bold;
-}
-
