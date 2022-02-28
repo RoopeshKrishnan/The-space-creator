@@ -5,19 +5,45 @@
   scroll-behavior: smooth;
 }
 
-.upto_about{
+
+/*scrollbar color*/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+/*end of scrollbar*/
+
+.upto_about {
 
   height: 872px;
   width: 100%;
-  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
-    url("/assets/images/banner_image.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    object-fit: contain;
-    background-size: cover;
-    position: relative;
-  
+  background-image: linear-gradient(rgba(1, 4, 15, 0.863), rgba(0, 2, 10, 0.747)),
+    url("../images/banner_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: contain;
+  background-size: cover;
+  position: relative;
+
 
 }
 
@@ -96,14 +122,14 @@
   min-height: 4rem;
   width: 100%;
   /*background-color: #f7f7f7;*/
-  background-image: linear-gradient(rgba(45, 46, 48, 0.979),rgba(21, 23, 27, 0.829));
+  background-image: linear-gradient(rgba(45, 46, 48, 0.979), rgba(21, 23, 27, 0.829));
   position: fixed;
   z-index: 1000;
 }
 
 #logo_first_letter {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.1rem;
+  font-weight: bolder;
   color: rgb(247, 21, 21);
 }
 
@@ -160,13 +186,13 @@
 
 
 /*banner section codes*/
-.about_row{
-  background-color: #777777;
-  height: 1500px;
+.about_row {
+  background-color: #ffffff;
+  height: 800px;
   width: 100%;
 }
 
-.bannersection{
+.bannersection {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,13 +202,16 @@
   padding-left: 40px;
   padding-right: 40px;
 }
-.banner_button{
+
+.banner_button {
   width: 100%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
-.banner_button button{
-  background-color: #ee0606; /* Green */
+
+.banner_button button {
+  background-color: #ee0606;
+  /* Green */
   border: none;
   color: white;
   padding: 16px;
@@ -193,26 +222,32 @@
   margin: 40px 4px;
   cursor: pointer;
 }
-.buttonstyle {border-radius: 10px;}
 
-#banner_text::after{
+.buttonstyle {
+  border-radius: 10px;
+}
+
+#banner_text::after {
   content: '';
   display: block;
   width: 100%;
   height: 2px;
-background: #ee0606;}
+  background: #ee0606;
+}
 
-#our_prjbtn_style2{
+#our_prjbtn_style2 {
   background: #f8f8fa;
   color: #ee0606;
 }
-#our_prjbtn_style2:hover{
+
+#our_prjbtn_style2:hover {
   background-color: #ee0606;
   color: #f8f8fa;
 }
-#our_prjbtn_style1:hover{
-  background-color:#f8f8fa;
-  color:#ee0606;
+
+#our_prjbtn_style1:hover {
+  background-color: #f8f8fa;
+  color: #ee0606;
 }
 
 
@@ -221,8 +256,90 @@ background: #ee0606;}
 
 
 /*About section codes*/
+#about_section1_heading{
+  font-weight: bold;
+
+}
+
+/*#about_section1_heading::after{
+  content: '';
+  display:block;
+  width: 100%;
+  height: 50px;
+  color: #f80303;
+ 
+}*/
+#hr_style1 {width: 10%; margin-left: auto;margin-right: auto; color: darkorange;height: 2px;}
+#hr_style2 {width: 20%;margin-left: auto;margin-right: auto; margin-top: 0;color:darkorange; height: 2px;}
+
+
+
+
+
+.about_section{
+  margin-top: 30px;
+}
+
+.about_flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about_section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.about_section2_text {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.about_section2_picture {
+  height: 400px;
+  background-image: url("../images/banner_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  background-size: cover;
+  margin-bottom: 50px;
+
+}
+
+.about_section2_text h3{
+  text-align: center;
+}
+
+.icon{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  
+}
+
+.testt3{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+ .title a{
+  color: #000000;
+}
 
 /*end of About section codes*/
-
-
-
