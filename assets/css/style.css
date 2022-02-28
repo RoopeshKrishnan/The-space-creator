@@ -321,7 +321,7 @@ html{
   display: flex;
   flex-direction: column;
   
-}
+}*/
 
 .about_section2_picture {
   height: 50vh;
@@ -333,7 +333,7 @@ html{
   margin-bottom: 50px;
 
 }
-
+/*
 .about_section2_text h3{
   text-align: center;
 }
@@ -357,7 +357,7 @@ float: left;
   
 }
 
-.testt3{
+.about_section3{
   padding-left: 60px;
   padding-right: 60px;
 }
