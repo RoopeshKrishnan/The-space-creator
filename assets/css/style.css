@@ -3,8 +3,12 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-*,*::before,*::after{box-sizing: inherit;}
-html{
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
   box-sizing: border-box;
 }
 
@@ -35,7 +39,7 @@ html{
 
 .upto_about {
 
-  height: 100vh;
+  height: auto;
   width: 100%;
   background-image: linear-gradient(rgba(1, 4, 15, 0.863), rgba(0, 2, 10, 0.747)),
     url("../images/banner_image.jpg");
@@ -45,6 +49,7 @@ html{
   object-fit: contain;
   background-size: cover;
   position: relative;
+
 
 
 }
@@ -196,17 +201,18 @@ html{
   justify-content: center;
   align-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 250px;
   padding-left: 40px;
   padding-right: 40px;
-  height: 100vh;
+  height: auto;
+  width: 100%;
 }
 
 .banner_button {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .banner_button button {
@@ -227,13 +233,13 @@ html{
   border-radius: 30px;
 }
 
-#banner_text::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #ee0606;
+#banner_text {
+  border: 5px solid red;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+
 
 #our_prjbtn_style2 {
   background: #f8f8fa;
@@ -257,7 +263,7 @@ html{
 
 /*About section codes*/
 
-.about_section{
+.about_section {
   margin-top: 30px;
   height: auto;
   background-color: white;
@@ -269,7 +275,7 @@ html{
   width: 100%;
 }*/
 
-#about_section1_heading{
+#about_section1_heading {
   font-weight: bold;
   margin-bottom: 20px;
 
@@ -283,8 +289,26 @@ html{
   color: #f80303;
  
 }*/
-#hr_style1 {width: 15%; margin-left: auto;margin-right: auto; color: darkorange;height: 2px;margin-top: 0;margin-bottom: 0;}
-#hr_style2 {width: 20%;margin-left: auto;margin-right: auto; margin-top: 0;color:darkorange; height: 3px;margin-top: 5px;margin-bottom: 20px;}
+#hr_style1 {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkorange;
+  height: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#hr_style2 {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: darkorange;
+  height: 3px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
 
 
 
@@ -323,8 +347,9 @@ html{
   
 }*/
 
+
 .about_section2_picture {
-  height: 50vh;
+  height: 40vh;
   background-image: url("../images/banner_image.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -334,6 +359,7 @@ html{
   border-radius: 25px;
 
 }
+
 /*
 .about_section2_text h3{
   text-align: center;
@@ -344,48 +370,60 @@ html{
   display: flex;
 }
 */
-.about_section2_picture{
+.about_section2_picture {
 
-float: left;
+  float: left;
 
 
 }
-.icon{
+
+.icon {
   text-align: center;
 }
-.title{
+
+.title {
   text-align: center;
+
+}
+.title a {
+  text-decoration: none;
+  color: darkorange;
   
 }
 
-.about_section3{
+.about_section3 {
+  display: flex;
+  justify-content: center;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 30px;
-  
+  padding-bottom: 45px;
   
 }
 
-
-
-
- .title a{
-  color: #000000;
+.icon-box{
+ padding: 10px;
 }
+
+.card{
+  margin: 10px;
+  padding: 5px;
+}
+
 
 /*end of About section codes*/
 
 /*begining of service section*/
 
-.service_section{
+.service_section {
   height: auto;
   width: 100%;
   padding-top: 50px;
-  background-color: #232427;
- 
+  background-color: white;
+
 }
 
-.service_section h2{
+.service_section h2 {
   font-weight: bold;
   text-align: center;
   color: rgb(241, 14, 14);
@@ -398,7 +436,7 @@ float: left;
   align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #232427;
+  background: white;
 }
 
 .service_flexbox .container {
@@ -433,6 +471,7 @@ float: left;
 .service_flexbox .container .card:nth-child(3) .box .content a {
   background: #23c186;
 }
+
 .service_flexbox .container .card:nth-child(3) .box .content a {
   background: #23c186;
 }
@@ -507,12 +546,40 @@ float: left;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
+
 .service_flexbox .container .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background: #fff;
   color: #000;
 }
 
+#hr_style3 {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  color: red;
+  height: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#hr_style4 {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: red;
+  height: 3px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
 
 
 /*end of service section*/
+
+/*work secton*/
+
+
+/*end of work section*/
