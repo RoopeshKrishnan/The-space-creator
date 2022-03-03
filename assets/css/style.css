@@ -435,6 +435,7 @@ html {
 
 }
 
+
 .service_flexbox {
   display: flex;
   justify-content: center;
@@ -595,10 +596,69 @@ html {
 
 .work_section {
   padding-top: 5rem;
-
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #ffffff;
+}
+
+
+.work_section h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#hr_style5 {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  height: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#hr_style6 {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: black;
+  height: 3px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.work_section p {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+
+.work_section .row{
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.image_item{
+
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+ 
+  transition: .5s ease-in-out;
+  
+}
+
+.image_item:hover{
+  filter:saturate(5);
+  transform: scale(1.13);
+  
 }
 
 
