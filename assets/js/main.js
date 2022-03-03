@@ -5,4 +5,9 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })
 
- 
+
+$(document).ready(function(){
+    $("p").click(function(){
+      $(this).hide();
+    });
+  }); 

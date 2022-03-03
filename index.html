@@ -15,6 +15,9 @@
 
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -47,16 +50,16 @@
                       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#about_id">About</a>
+                      <a class="nav-link js-scroll-trigger" href="#about_id">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#service_id">Services</a>
+                      <a class="nav-link js-scroll-trigger" href="#service_id">Services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#work_id">Work</a>
+                      <a class="nav-link js-scroll-trigger" href="#work_id">Work</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact_id">Contact</a>
+                      <a class="nav-link js-scroll-trigger" href="#contact_id">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -101,6 +104,9 @@
           <h1 id="about_section1_heading">About <span style="color: darkorange;">Us</span> </h1>
           <hr id="hr_style1">
           <hr id="hr_style2">
+          <p>If you click on me, I will disappear.</p>
+          <p>Click me away!</p>
+          <p>Click me too!</p>
 
           <p id="about_section1_para">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et
@@ -293,19 +299,22 @@
                       <img src="https://img.icons8.com/small/24/000000/whatsapp.png" />
                     </div>
                     <div class="llll">
-                  <!--<a class="whatsapp-btn" href="https://wa.me/91999999999"><i class="fab fa-whatsapp"></i>kkk</a>-->   
-                  <p style="margin-bottom: 0;margin-left: 20px;">Click on the whatsapp button </p>
- 
+                      <!--<a class="whatsapp-btn" href="https://wa.me/91999999999"><i class="fab fa-whatsapp"></i>kkk</a>-->
+                      <p style="margin-bottom: 0;margin-left: 20px;">Click on the whatsapp button </p>
+
 
                     </div>
 
                   </div>
                   <div class="whatsapp-btn-container">
 
-                    <a class="whatsapp-btn" href="https://wa.me/919495131801"><button id="wh_btn_txt" type="button" style="padding-right: 2rem;padding-top: .3rem;padding-bottom: .3rem;"><i style="padding-right: 1.1rem; padding-left: 2rem;" class='bx bxl-whatsapp bx-burst' ></i>Use Me</button></a>
-                   </div>
+                    <a class="whatsapp-btn" href="https://wa.me/919495131801"><button id="wh_btn_txt" type="button"
+                        style="padding-right: 2rem;padding-top: .3rem;padding-bottom: .3rem;"><i
+                          style="padding-right: 1.1rem; padding-left: 2rem;" class='bx bxl-whatsapp bx-burst'></i>Use
+                        Me</button></a>
+                  </div>
 
-              
+
 
                 </div>
 
@@ -362,7 +371,21 @@
     <a id="back_to_top" href="#" class="back-to-top"><i class='bx bx-chevron-up-circle'></i></a>
 
   </div>
-  
+
+  <script type="text/javascript">
+
+
+//  $(document).ready(function(){
+ //   alert(1);
+ // });
+
+
+    $('.js-scroll-trigger').click(function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+
+
 
 
 
@@ -372,6 +395,10 @@
     crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+
 
 
 
