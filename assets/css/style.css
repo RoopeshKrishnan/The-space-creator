@@ -190,8 +190,10 @@ body {
   background: #f8f8fa;
   display: block;
   margin: auto;
-
+  transition: 0.3s;
 }
+
+
 
 .nav-link:hover::after {
   width: 100%;
@@ -317,14 +319,11 @@ body {
  
 }
 
-/*.about_section2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.about_section2 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
-
+/*
 .about_section2_text {
   display: flex;
   flex-direction: column;
@@ -334,13 +333,23 @@ body {
 
 .about_section2_picture {
   height: 40vh;
-  background-image: url("../images/banner_image.jpg");
+  background-image: linear-gradient(to right, rgba(93, 93, 122, 0.404), rgba(115, 116, 112, 0.781)),
+  url("../images/pexels-karolina-grabowska-4219528.jpg");
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
   background-size: cover;
   margin-bottom: 50px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 
+}
+.about_section2_picture p{
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 /*

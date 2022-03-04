@@ -126,7 +126,8 @@
       <div class="about_flexbox">
         <div class="about_section1">
           <h1 id="about_section1_heading"> <span style="font-size: 5.1rem;font-weight: 800;  font-family: 'Marck Script', cursive;
-            ">A</span>bout <span style="color: red;">Us</span> </h1>
+          color: red;
+            ">A</span>bout Us </h1>
           <hr style="color: black;width: 50px;height: 2px;">
 
 
@@ -165,6 +166,12 @@
 
             </div>
             <div class="about_section2_picture  col-lg-6 ">
+              <p>n vn d vdkvn vnvn vm fdv;fdnv vjdfv <br>
+                fnvfhvvjfn vhfv nf hvhnfhv fnv fnfnv fhdnv nhjb fvjdvgcdhcbjem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore
+                et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatv</p>
 
 
             </div>
@@ -207,7 +214,7 @@
   <section id="service_id" class="service_section">
 
     <div class="service_flexbox">
-      <h2> <span style="font-size: 5.1rem;font-weight: 800;  font-family: 'Marck Script', cursive;
+      <h2> <span style="font-size: 5.1rem;font-weight: 800;  font-family: 'Marck Script', cursive;color: red;
         ">S</span>ervices</h2>
       <hr style="color: black;width: 50px;height: 2px; text-align: center;">
 
@@ -273,8 +280,8 @@
     <div class="container-fluid">
       <div class="work_flexbox">
         <h2 style="text-align: center; padding-top: 40px;"> <span style="font-size: 5.1rem;font-weight: 800;  
-        font-family: 'Marck Script', cursive;
-          ">O</span><span>ur </span><span style="color: red;">Projects</span> </h2>
+        font-family: 'Marck Script', cursive;color: red;
+          ">O</span><span>ur </span>Projects</h2>
         <hr style="color: black;width: 50px;height: 2px;">
 
         <p style="font-family: 'Open Sans', sans-serif;">The projects exhibit below will give an insight into our works.
@@ -371,9 +378,9 @@
             <div class="section1_part1 col-lg-6 ">
               <div class="contact_text">
                 <h1 id="section1_part1_display_text"><span style="font-size: 5.1rem;font-weight: 800;  
-                  font-family: 'Marck Script', cursive;
-                    ">C</span>ontact <span
-                    style="display: block;text-decoration: underline; color: red;">Us</span></h1>
+                  font-family: 'Marck Script', cursive;color: red;
+                    ">C</span>ontact <span style="display: block;text-decoration: underline; ">Us</span>
+                </h1>
                 <p id="para_style"
                   style="color: black; text-align: center;padding-top: 20px;font-family: 'Open Sans', sans-serif;">
                   Contact Me
@@ -505,9 +512,41 @@
 
 
     /*for collapse nav bar when a nav item clicked*/
-    $('.js-scroll-trigger').click(function () {
-      $('.navbar-collapse').collapse('hide');
+    /*  $('.js-scroll-trigger').click(function () {
+        $('.navbar-collapse').collapse('hide');
+      });*/
+
+    /* $(function(){
+       $("body").click(function(e){
+         //alert(e.target.getAttribute("class"));
+        // alert($(e.target).parents(".navbar-collapse").length);
+       // alert($(e.target).parents(".navbar-collapse").length);
+       
+         if(e.target.getAttribute("class")==="collapse"||$(e.target).parents(".collapse").
+         length>0)
+         {
+
+         }else{
+           if($(".collapse").hasClass("in")==true)
+           {
+             $(".collapsed")[0].click();
+           }
+         }
+         
+       });
+     });*/
+
+
+    // nav bar close when we click an item and also when we click outside the nav var container
+    $(function () {
+      $(document).click(function (event) {
+        $('.navbar-collapse').collapse('hide');
+      });
     });
+
+
+
+
   </script>
 
 

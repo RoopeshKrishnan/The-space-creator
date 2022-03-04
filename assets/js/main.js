@@ -21,4 +21,6 @@ $(window).scroll(function() {
     }, 1500, 'easeInOutExpo');
     return false;
   });
+ 
+
 
