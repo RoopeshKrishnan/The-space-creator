@@ -267,7 +267,112 @@ body {
 
 
 
-@media (max-width:780px) {
+@media (max-width:2560px){
+
+  .about_section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+   
+  }
+  
+  .about_section2 {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+  }
+
+
+  .service_section h5 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+  }
+  
+  .service_section p {
+    text-align: center;
+    margin-top: 2.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .service_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  
+  }
+
+  
+
+.service_section .row {
+  padding-top: 3rem;
+  padding-left: 2.5rem;
+  padding-right: 2.53rem;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+
+}
+  .card-body p{
+    font-size: 1.2rem;
+  }
+
+}
+@media (max-width:1180px){
+
+   
+  .service_section h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+  }
+  
+  .service_section p {
+    text-align: center;
+    margin-top: 2.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .service_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  
+  }
+
+  
+
+.service_section .row {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+
+}
+  .card-body p{
+    font-size: 1rem;
+   
+  }
+}
+
+
+
+
+
+@media (max-width:750px) {
 
   .banner_text h1 {
 
@@ -282,6 +387,47 @@ body {
   .banner_text p {
     font-size: 1.5rem;
   }
+
+  
+  .service_section h5 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+  }
+  
+  .service_section p {
+    text-align: center;
+    margin-top: 2.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .service_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  
+  }
+
+  
+
+.service_section .row {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+
+}
+  .card-body p{
+    font-size: 1.2rem;
+   
+  }
+
 
 }
 
@@ -333,8 +479,63 @@ body {
     font-family: 'Marck Script', cursive;
     color: red;
   }
+  .about_section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+  }
+  
+  .about_section2 {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
 
   /*end of about*/
+
+  /*service*/
+  
+  .service_section h5 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+  }
+  
+  .service_section p {
+    text-align: center;
+    margin-top: 2.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .service_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  
+  }
+
+  
+
+.service_section .row {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+  .card-body p{
+    font-size: 1rem;
+  }
+
+  /**/
 
 
 
@@ -367,7 +568,7 @@ body {
 
 
 
-@media (max-width:320px) {
+@media (max-width:321px) {
 
   .banner_text h1 {
 
@@ -414,7 +615,75 @@ body {
     color: red;
   }
 
+
+  .about_section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+  }
+  
+  .about_section2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .about_section2_text h3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
   /*end of about*/
+
+  /*service section*/
+   
+  .service_section h5 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+  }
+  
+  .service_section p {
+    text-align: center;
+    margin-top: 2.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .service_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+  
+  }
+
+.service_section .row {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 8rem;
+
+}
+  .card-body{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+
+  .card-body p{
+    font-size: 1rem;
+   
+  }
+  /**/
 
   
   /*work*/
@@ -776,15 +1045,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+ 
+ 
  
 }
 
-.about_section2 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
 /*
 .about_section2_text {
   display: flex;
@@ -861,10 +1126,6 @@ body {
   padding: 10px;
 }
 
-/*.card {
-  margin: 10px;
-  padding: 5px;
-}*/
 
 
 /*end of About section codes*/
@@ -874,13 +1135,7 @@ body {
   padding-top: 6rem;
 }
 
-.service_section h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
 
-
-}
 
 .service_flexbox{
   display: flex;
@@ -899,21 +1154,6 @@ body {
   color: #FF0000;
 }
 
-.service_section h5 {
-  text-align: center;
-  font-size: 1.7rem;
-  font-weight: 700;
-  padding-bottom: .5rem;
-}
-
-.service_section p {
-  text-align: center;
-  margin-top: 2.6rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-}
 
 .service_section .card {
   height: auto;
@@ -960,18 +1200,6 @@ body {
 }
 
 
-.service_section .row {
-  padding-top: 3rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 1rem;
-  margin-bottom: 8rem;
-
-}
-
-.service_crt {
-  padding-left: 2rem;
-}
 
 
 
