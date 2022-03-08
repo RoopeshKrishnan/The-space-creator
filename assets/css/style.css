@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -15,41 +16,22 @@ html {
 body {
 
   font-family: 'Jura', sans-serif;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-/*scrollbar color*/
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
-}
-
-/*end of scrollbar*/
-
-.upto_about {
+/*.upto_about {
 
   height: auto;
   width: 100%;
   /* background-image: linear-gradient(rgba(1, 4, 15, 0.863), rgba(0, 2, 10, 0.747) ),
     url("../images/banner_image.jpg");*/
 
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)),
+ /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)),
     url("../images/sol-tZw3fcjUIpM-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -57,10 +39,7 @@ body {
   object-fit: contain;
   background-size: cover;
   position: relative;
-
-
-
-}
+}*/
 
 /* nav bar toggle buttton style*/
 /* Remove border from toggler */
@@ -132,6 +111,496 @@ body {
 
 /*toggle button end*/
 
+
+#about_section1_heading {
+  font-weight: bold;
+  margin-bottom: .6rem;
+}
+
+#about_section1_heading_span {
+  font-size: 5.1rem;
+  font-weight: 800;
+  font-family: 'Marck Script', cursive;
+  color:red;
+}
+
+
+
+/**/
+
+#work_section_heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#work_section_heading_span {
+  font-size: 5.1rem;
+  font-weight: 800;
+  font-family: 'Marck Script', cursive;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new banner*/
+.banner_section {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)),
+    url("../images/banner_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.banner_background {
+  width: 100%;
+  height: auto;
+
+
+
+
+}
+
+.banner_flexbox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: #f8f8fa;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.banner_text {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 12rem;
+
+}
+
+
+.banner_text h1 {
+
+  box-sizing: border-box;
+  font-size: 5.5rem;
+  font-weight: bolder;
+  border: 5px solid red;
+  box-sizing: border-box;
+
+}
+
+.banner_text p {
+  box-sizing: border-box;
+  font-size: 1.9rem;
+  padding-top: 3rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+@media (max-width:780px) {
+
+  .banner_text h1 {
+
+    font-size: 3.4rem;
+    font-weight: bolder;
+    border: 5px solid red;
+
+    box-sizing: border-box;
+
+  }
+
+  .banner_text p {
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+@media (max-width:500px) {
+
+  .banner_text h1 {
+
+    font-size: 2.55rem;
+    font-weight: bolder;
+    border: double;
+    border: 2.5px solid red;
+
+
+  }
+
+  .banner_text p {
+    font-size: 1.2rem;
+  }
+
+  /*header*/
+  .header_flexbox h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  #logo_first_letter {
+    font-size: 1.6rem;
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder;
+    color: rgb(247, 21, 21);
+  }
+
+  /* end of header*/
+
+  /*about*/
+
+
+  #about_section1_heading {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: .6rem;
+  }
+
+  #about_section1_heading_span {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color: red;
+  }
+
+  /*end of about*/
+
+
+
+  /*work*/
+  #work_section_heading {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  #work_section_heading_span {
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color: red;
+  }
+  /*end of work*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:320px) {
+
+  .banner_text h1 {
+
+    font-size: 1.9rem;
+    font-weight: bolder;
+    border: 3px solid red;
+
+    box-sizing: border-box;
+
+  }
+
+  .banner_text p {
+    font-size: 1rem;
+  }
+
+  /*header*/
+  .header_flexbox h2 {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  #logo_first_letter {
+    font-size: 1.5rem;
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder;
+    color: red;
+  }
+
+  /* end of header*/
+
+
+  /*about*/
+
+  #about_section1_heading {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: .6rem;
+  }
+
+  #about_section1_heading_span {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color: red;
+  }
+
+  /*end of about*/
+
+  
+  /*work*/
+  #work_section_heading {
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  #work_section_heading_span {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color: red;
+  }
+  /*end of work*/
+
+  #our_prjbtn_style1{
+
+    font-size: .8rem;
+  }
+  #our_prjbtn_style2{
+
+    font-size: .8rem;
+  }
+
+
+ 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:250px) {
+
+  .banner_text h1 {
+
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: 1px solid red;
+
+    box-sizing: border-box;
+
+  }
+
+  .banner_text p {
+    font-size: .9rem;
+  }
+
+  /*header*/
+  .header_flexbox h2 {
+    font-weight: bold;
+  }
+
+  #logo_first_letter {
+    font-size: 1rem;
+    font-family: 'Marck Script', cursive;
+    font-weight: bolder;
+    color: rgb(247, 21, 21);
+  }
+
+  /* end of header*/
+
+
+  /*about*/
+
+
+  #about_section1_heading {
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: .6rem;
+  }
+
+  #about_section1_heading_span {
+    font-size: 1.9rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color:red;
+  }
+
+  /*end of about*/
+
+  
+  /*work*/
+  #work_section_heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  #work_section_heading_span {
+    font-size: 2.6rem;
+    font-weight: 800;
+    font-family: 'Marck Script', cursive;
+    color: red;
+  }
+  /*end of work*/
+
+
+   /*banner button*/
+   #our_prjbtn_style1{
+
+    font-size: .6rem;
+  }
+  #our_prjbtn_style2{
+
+    font-size: .6rem;
+  }
+
+   /**/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*new banner end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header_flexbox {
   display: flex;
   min-height: 4rem;
@@ -158,6 +627,7 @@ body {
   padding-top: 10px;
 
 }
+
 
 .nav_section {
   width: 40%;
@@ -225,9 +695,10 @@ body {
 
 .banner_button {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-bottom: 7.5rem;
 }
 
 .banner_button button {
@@ -235,16 +706,16 @@ body {
   /* Green */
   border: none;
   color: white;
-  padding: 16px;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 40px 4px;
   cursor: pointer;
-  font-size: 1rem;
   font-weight: bold;
   font-family: 'Jura', sans-serif;
+  height: auto;
 
 }
 
@@ -286,18 +757,9 @@ body {
   padding-top: 6rem;
   height: auto;
   background-color: white;
-
-
 }
 
 
-#about_section1_heading {
-  font-weight: bold;
-  font-size: 2.5rem;
-  margin-bottom: .6rem;
-
-
-}
 
 
 
