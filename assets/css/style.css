@@ -324,7 +324,30 @@ body {
     font-size: 1.2rem;
   }
 
+  
+.work_section p {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  text-align: center;
 }
+
+
+.work_section .row {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+}
+
+
+
+
+
 @media (max-width:1180px){
 
    
@@ -366,6 +389,25 @@ body {
     font-size: 1rem;
    
   }
+   
+.work_section p {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.3rem;
+  text-align: center;
+  
+}
+
+.work_section .row {
+  padding-left: 3.3rem;
+  padding-right: 3.3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
 }
 
 
@@ -427,6 +469,16 @@ body {
     font-size: 1.2rem;
    
   }
+
+  
+.work_section p {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.3rem;
+  text-align: center;
+}
 
 
 }
@@ -501,7 +553,7 @@ body {
   
   .service_section h5 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     font-weight: 800;
     padding-bottom: .5rem;
   }
@@ -511,7 +563,7 @@ body {
     margin-top: 2.6rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
 
@@ -532,7 +584,7 @@ body {
 
 }
   .card-body p{
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   /**/
@@ -553,6 +605,23 @@ body {
     font-family: 'Marck Script', cursive;
     color: red;
   }
+
+  .work_section p {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-top: .8rem;
+    text-align: center;
+  }
+
+  
+.work_section .row {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
   /*end of work*/
 
 
@@ -1216,7 +1285,6 @@ body {
 }
 
 .work_section {
-  padding-top: 3.1rem;
   width: 100%;
   height: auto;
   background-color: #ffffff;
@@ -1250,22 +1318,8 @@ body {
   margin-bottom: 20px;
 }
 
-.work_section p {
-  font-size: 1.1em;
-  font-weight: 600;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 3rem;
-  text-align: center;
-}
 
 
-.work_section .row {
-  padding-left: 6rem;
-  padding-right: 6rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 
 .image_item {
 
