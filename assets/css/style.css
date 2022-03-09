@@ -1053,7 +1053,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 7.5rem;
+  padding-bottom: 9rem;
 }
 
 .banner_button button {
@@ -1513,13 +1513,12 @@ body {
 /*whatsapp end*/
 
 
-/* back to top*/
+/*
 .back_to {
   position: fixed;
-  /*bottom: 0px;
-  left: 0px;*/
   bottom: 5rem;
   right: 1rem;
+  background: transparent;
 }
 
 #back_to_top {
@@ -1528,6 +1527,18 @@ body {
   padding-right: 1rem;
   opacity: .7;
   color: red;
-}
+}*/
 
 /* end of back to top*/
+#movetop {
+  display: none;
+  position: fixed;
+  bottom: 5.5rem;
+  right: 1rem;
+  z-index: 99;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 1rem;
+  transition: 0.5s ease-out; }
